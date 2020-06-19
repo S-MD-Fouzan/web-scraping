@@ -13,4 +13,5 @@ class ContextlinkItem(scrapy.Item):
     title = scrapy.Field()
     url= scrapy.Field()
     text=scrapy.Field()
+    pages=scrapy.Field()
     
